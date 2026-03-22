@@ -10,7 +10,7 @@ import {
   REGISTER,
 } from "redux-persist";
 import storage from "redux-persist/lib/storage";
-import bookSlice from "./features/bookSlice";
+import { bookSlice } from "./features/bookSlice";
 
 const persistConfig = {
   key: "root",
